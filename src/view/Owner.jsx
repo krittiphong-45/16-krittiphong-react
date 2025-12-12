@@ -1,0 +1,15 @@
+export default function Owner() {
+  return (
+    <div className="flex flex-col justify-center items-center gap-y-4 mt-8">
+      <h1 className="text-2xl font-medium ">16-krittiphong-JSD11</h1>
+      <div className="h-[300px] w-[300px] bg-sky-950 flex items-center justify-center rounded-lg">
+        <img
+          src="https://i.pinimg.com/736x/a6/4d/9d/a64d9d62c4d484bc4b55e1c934fdbc03.jpg"
+          alt="img"
+          className="h-[95%] w-[95%] rounded-lg hover:rotate-y-180 "
+        />
+      </div>
+      <p>krittip</p>
+    </div>
+  );
+}
