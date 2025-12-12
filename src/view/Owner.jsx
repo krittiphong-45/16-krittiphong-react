@@ -9,7 +9,13 @@ export default function Owner() {
           className="h-[95%] w-[95%] rounded-lg hover:rotate-y-180 "
         />
       </div>
-      <p>krittip</p>
+      <div className="h-[150px] w-[550px] bg-gray-400 flex items-center justify-center rounded-lg">
+        <p className="text-gray-800 font-medium text-center">
+          สวัสดีครับผมชื่อ กฤติพงษ์ ชมภูพล ชื่อเล่นชื่อ กฤษ ครับ รู้สึกดีมากครับวันได้ทำ assignments react เจ็บหัวนิดหน่อยแต่ก็สนุกดีครับถือว่าได้พัฒนาตัวเองและได้รู้ว่าตัวเองควรไปเรียนเสริมตรงไหน เพื่อจะได้นำไปใช้กับproject
+          และขอบคุญทีมผู้สอนทุกคนมากครับ
+        </p>
+      </div>
+      
     </div>
   );
 }

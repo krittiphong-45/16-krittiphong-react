@@ -31,7 +31,7 @@ export default function Home() {
         </ViewButton>
       </div>
       {view === "user" &&  <TableUser loading={loading} setLoading={setLoading} />}
-      {view === "admin" && <TableAdmin loading={loading} setLoading={setLoading} />}
+      {view === "admin" && <TableAdmin />}
     </div>
   );
 }
