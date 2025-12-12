@@ -1,10 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./view/Home";
-import User from "./view/User";
-import Admin from "./view/Admin";
 import Owner from "./view/Owner";
-
 const router = createBrowserRouter([
   {
     path:"/",
@@ -20,19 +17,13 @@ const router = createBrowserRouter([
         element:<Home/>,
       },
       {
-        path:"/home/user",
-        element:<User/>,
-      },
-      {
-        path:"/home/admin",
-        element:<Admin/>,
-      },
-      {
         path:"owner",
         element:<Owner/>,
       },
   ]
   }]);
 export default function App() {
-  return <RouterProvider router={router}/>;
+  return (
+  <RouterProvider router={router}/>
+);
 }
