@@ -12,7 +12,7 @@ export default function Owner() {
       <div className="h-[150px] w-[550px] bg-gray-400 flex items-center justify-center rounded-lg">
         <p className="text-gray-800 font-medium text-center">
           สวัสดีครับผมชื่อ กฤติพงษ์ ชมภูพล ชื่อเล่นชื่อ กฤษ ครับ รู้สึกดีมากครับวันได้ทำ assignments react เจ็บหัวนิดหน่อยแต่ก็สนุกดีครับถือว่าได้พัฒนาตัวเองและได้รู้ว่าตัวเองควรไปเรียนเสริมตรงไหน เพื่อจะได้นำไปใช้กับproject
-          และขอบคุญทีมผู้สอนทุกคนมากครับ
+          และขอบคุณทีมผู้สอนทุกคนมากครับ
         </p>
       </div>
       
